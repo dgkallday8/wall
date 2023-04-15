@@ -1,0 +1,22 @@
+<div class="block">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form">
+    <div class="container">
+      
+    </div>
+    <div class="block">
+      <label>
+        Ширина
+      </label>
+      <input type="number" formControlName="width" min="40" max="200">
+    </div>
+  
+    <div class="block">
+      <label>
+        Высота
+      </label>
+      <input type="number" formControlName="height" min="30" max="150">
+    </div>
+    <button type="submit" [disabled]="!form.valid">задать размер</button>
+  </form>
+</div>
+

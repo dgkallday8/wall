@@ -1,0 +1,38 @@
+:host {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+
+input {
+  height: 30px;
+  width: 80px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.block {
+  margin-bottom: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+  button {
+    outline: none;
+    padding: 5px 10px;
+    font-size: 16px;
+  } 
+
+// .info {
+//   margin-left: 20px;
+//   display: flex;
+// }
+
+// .count {
+//   margin-left: 20px;
+//   text-align: center;
+//   font-weight: bold;
+//   font-size: 16px;
+// }
